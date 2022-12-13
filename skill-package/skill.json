@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Get podcast episodes from your favorite RSS feed.",
+          "examplePhrases": [
+            "Alexa open RSS feed",
+            "Alexa play podcast on RSS feed",
+            "Alexa start RSS feed"
+          ],
+          "keywords": [
+            "podcast",
+            "RSS",
+            "episode"
+          ],
+          "name": "RSS feed",
+          "description": "Get podcast episodes from your favorite RSS feed.\n\nTo start, just say \"Alexa, start RSS feed\" or \"Alexa, open RSS feed\" to get your podcast streaming\".\n\nAt anytime, you can stop by saying \"Alexa, stop\""
+        }
+      },
+      "category": "STREAMING_SERVICE"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": ""
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

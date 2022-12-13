@@ -1,0 +1,137 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "RSS feed",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "manualAdd",
+          "slots": [],
+          "samples": [
+            "manual add rss feed",
+            "add a rss feed",
+            "i want to add a rss feed"
+          ]
+        },
+        {
+          "name": "voiceAdd",
+          "slots": [],
+          "samples": [
+            "add an rss feed online"
+          ]
+        },
+        {
+          "name": "callpod",
+          "slots": [
+            {
+                "name": "pod",
+                "type": ""
+            },
+            {
+                "name": "time",
+                "type": "AMAZON.TIME"
+            }
+          ],
+          "samples": [
+            "play an episode of {pod}",
+            "play the latest episode of {pod}",
+            "listen to {pod}",
+            "play {pod} on {time}",
+            "play {pod}"
+          ]
+        },
+        {
+          "name": "chooseepisode",
+          "slots": [
+              {
+                  "name": "pod",
+                  "type": ""
+              },
+              {
+                  "name": "random",
+                  "type": ""
+              },
+              {
+                  "name": "latest",
+                  "type": ""
+              },
+              {
+                  "name": "first",
+                  "type": ""
+              },
+              {
+                  "name": "num",
+                  "type": "AMAZON.NUMBER"
+              }
+          ],
+          "samples": [
+              "play {pod} of {random} episode",
+              "play {pod} of {num} episode",
+              "play {pod} of {latest} episode",
+              "play {pod} of {first} episode",
+              "play {first} of {pod}",
+              "play {first} episode of {pod}",
+              "play {num} episode of {pod}",
+              "play {random} {pod}",
+              "play {random} episode of {pod}",
+              "play {latest} {pod}",
+              "play {latest} episode {pod}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
